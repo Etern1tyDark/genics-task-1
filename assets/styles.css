@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Inter, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+.contact-app {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px #0000001a;
+    border-radius: 12px;
+}
+.contact-app h1 {
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #222;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px #0000001a;
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-3px);
+}
+
+.contact-item_info {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.contact-item_image img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.contact-item_body {
+    flex: 1;
+}
+
+.contact-item_name {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.contact-item_email {
+    font-size: 14px;
+    color: #666;
+}
+
+.contact-item_delete {
+    padding: 4px;
+    font-size: 16px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 25%;
+    width: 33px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.contact-item_delete:hover {
+    background-color: #f33;
+}
+
+.contact-input {
+    background-color: #fff;
+    padding: 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0000001a;
+    margin-bottom: 32px;
+}
+.contact-input input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+.contact-input input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.contact-input button {
+    width: 100%;
+    padding: 12px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contact-input button:hover {
+    background-color: #0056b3;
+}
